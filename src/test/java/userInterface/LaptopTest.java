@@ -6,12 +6,14 @@ public class LaptopTest {
 	@Test
 	public void Lenovo ()
 	{
-		System.out.println("ThinkPad");
+		System.out.println("ThinkPad T410");
+		System.out.println("ThinkPad T450");
 	}
 	@Test
 	public void HP ()
 	{
 		System.out.println("Etbook");
+		System.out.println("Notebook");
 	}
 
 }
