@@ -13,5 +13,10 @@ public class PhonesTest {
 	{
 		System.out.println("Galacxy");
 	}
+	@Test
+	public void Nokia ()
+	{
+		System.out.println("68");
+	}
 
 }

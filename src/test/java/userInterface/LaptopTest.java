@@ -13,5 +13,10 @@ public class LaptopTest {
 	{
 		System.out.println("Etbook");
 	}
+	@Test
+	public void Dell ()
+	{
+		System.out.println("Telecom");
+	}
 
 }

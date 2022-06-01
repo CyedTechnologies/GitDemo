@@ -13,5 +13,10 @@ public class CarsTest {
 	{
 		System.out.println("Civic");
 	}
+	@Test
+	public void Tesla ()
+	{
+		System.out.println("Model 1");
+	}
 
 }
