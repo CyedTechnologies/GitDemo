@@ -11,6 +11,7 @@ public class CarsTest {
 		System.out.println("Camry");
 		System.out.println("Prius");
 		System.out.println("This is a new line to see the changes for a new branch");
+		System.out.println("This is 2nd line to see the changes for a new branch");
 		
 	}
 	@Test

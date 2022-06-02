@@ -11,6 +11,7 @@ public class LaptopTest {
 		System.out.println("ThinkPad T460");
 		System.out.println("ThinkPad T480");
 		System.out.println("This is a new line to see the changes for a new branch");
+		System.out.println("This is 2nd line to see the changes for a new branch");
 	}
 	@Test
 	public void HP ()
