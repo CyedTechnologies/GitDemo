@@ -10,6 +10,7 @@ public class PhonesTest {
 		System.out.println("11 pro");
 		System.out.println("6S");
 		System.out.println("12 pro");
+		System.out.println("This is a new line to see the changes for a new branch");
 	}
 	@Test
 	public void Samsung ()

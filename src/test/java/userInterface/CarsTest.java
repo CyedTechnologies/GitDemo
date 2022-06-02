@@ -10,6 +10,7 @@ public class CarsTest {
 		System.out.println("RAV4");
 		System.out.println("Camry");
 		System.out.println("Prius");
+		System.out.println("This is a new line to see the changes for a new branch");
 		
 	}
 	@Test
