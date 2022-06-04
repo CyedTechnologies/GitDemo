@@ -1,5 +1,6 @@
 package userInterface;
 
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 public class CarsTest {
@@ -14,13 +15,13 @@ public class CarsTest {
 		System.out.println("This is 2nd line to see the changes for a new branch");
 		
 	}
-	@Test
+	@BeforeTest
 	public void Honda ()
 	{
-		System.out.println("Civic");
+		System.out.println("Civic 2000");
 		System.out.println("Accord");
-		System.out.println("Civic");
-		System.out.println("Civic");
+		System.out.println("Civic 2002");
+		System.out.println("Civic 2004");
 	}
 	@Test
 	public void Tesla ()
@@ -29,6 +30,11 @@ public class CarsTest {
 		System.out.println("Model 2");
 		System.out.println("Model 3");
 		System.out.println("Model 4");
+	}
+	@Test(enabled=true)
+	public void Alphabits ()
+	{
+		System.out.println("This is test enabled and disabled");
 	}
 
 }
