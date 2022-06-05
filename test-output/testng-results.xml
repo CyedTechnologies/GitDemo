@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
@@ -20,10 +21,66 @@
           </reporter-output>
         </test-method> <!-- Tesla -->
         <test-method signature="Toyota()[pri:0, instance:userInterface.CarsTest@729d991e]" started-at="2022-06-04T17:13:36 EDT" name="Toyota" finished-at="2022-06-04T17:13:36 EDT" duration-ms="5" status="PASS">
+=======
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-06-04T22:34:25 EDT" name="RegressionTest" finished-at="2022-06-04T22:34:25 EDT" duration-ms="106">
+    <groups>
+    </groups>
+    <test started-at="2022-06-04T22:34:25 EDT" name="Test" finished-at="2022-06-04T22:34:25 EDT" duration-ms="106">
+      <class name="userInterface.PhonesTest">
+        <test-method signature="Iphone()[pri:0, instance:userInterface.PhonesTest@342c38f8]" started-at="2022-06-04T22:34:25 EDT" name="Iphone" finished-at="2022-06-04T22:34:25 EDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Iphone -->
+        <test-method signature="Nokia()[pri:0, instance:userInterface.PhonesTest@342c38f8]" started-at="2022-06-04T22:34:25 EDT" name="Nokia" finished-at="2022-06-04T22:34:25 EDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Nokia -->
+        <test-method signature="Samsung()[pri:0, instance:userInterface.PhonesTest@342c38f8]" started-at="2022-06-04T22:34:25 EDT" name="Samsung" finished-at="2022-06-04T22:34:25 EDT" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Samsung -->
+      </class> <!-- userInterface.PhonesTest -->
+      <class name="userInterface.LaptopTest">
+        <test-method signature="Dell()[pri:0, instance:userInterface.LaptopTest@5acf93bb]" started-at="2022-06-04T22:34:25 EDT" name="Dell" finished-at="2022-06-04T22:34:25 EDT" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Dell -->
+        <test-method signature="HP()[pri:0, instance:userInterface.LaptopTest@5acf93bb]" started-at="2022-06-04T22:34:25 EDT" name="HP" finished-at="2022-06-04T22:34:25 EDT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HP -->
+        <test-method signature="Lenovo()[pri:0, instance:userInterface.LaptopTest@5acf93bb]" started-at="2022-06-04T22:34:25 EDT" name="Lenovo" finished-at="2022-06-04T22:34:25 EDT" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Lenovo -->
+      </class> <!-- userInterface.LaptopTest -->
+      <class name="userInterface.CarsTest">
+        <test-method is-config="true" signature="DifferentModels()[pri:0, instance:userInterface.CarsTest@82de64a]" started-at="2022-06-04T22:34:25 EDT" name="DifferentModels" finished-at="2022-06-04T22:34:25 EDT" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DifferentModels -->
+        <test-method signature="Honda()[pri:0, instance:userInterface.CarsTest@82de64a]" started-at="2022-06-04T22:34:25 EDT" name="Honda" finished-at="2022-06-04T22:34:25 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Honda -->
+        <test-method signature="Tesla()[pri:0, instance:userInterface.CarsTest@82de64a]" started-at="2022-06-04T22:34:25 EDT" name="Tesla" finished-at="2022-06-04T22:34:25 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tesla -->
+        <test-method signature="Toyota()[pri:0, instance:userInterface.CarsTest@82de64a]" started-at="2022-06-04T22:34:25 EDT" name="Toyota" finished-at="2022-06-04T22:34:25 EDT" duration-ms="2" status="PASS">
+>>>>>>> TesterEngineers
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Toyota -->
       </class> <!-- userInterface.CarsTest -->
+<<<<<<< HEAD
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
+=======
+    </test> <!-- Test -->
+  </suite> <!-- RegressionTest -->
+>>>>>>> TesterEngineers
 </testng-results>
