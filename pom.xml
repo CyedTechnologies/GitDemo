@@ -17,6 +17,10 @@
     <maven.compiler.source>1.7</maven.compiler.source>
     <maven.compiler.target>1.7</maven.compiler.target>
   </properties>
+<profiles>
+<profile>
+<id>Regression</id>
+
 <build>
     <pluginManagement>
       <plugins>
@@ -28,6 +32,8 @@
       </plugins>
     </pluginManagement>
   </build>
+</profile>
+</profiles>
   <dependencies>
     <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
 <dependency>
