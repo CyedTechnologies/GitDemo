@@ -23,17 +23,17 @@ public class CarsTest {
 	@BeforeTest
 	public void Honda ()
 	{
-<<<<<<< HEAD
+
 		System.out.println("Civic 2000");
 		System.out.println("Accord");
 		System.out.println("Civic 2002");
 		System.out.println("Civic 2004");
-=======
+
 		System.out.println("Civic 2001");
 		System.out.println("Accord");
 		System.out.println("Civic 2002");
 		System.out.println("Civic 2003");
->>>>>>> TesterEngineers
+
 	}
 	@Test
 	public void Tesla ()
